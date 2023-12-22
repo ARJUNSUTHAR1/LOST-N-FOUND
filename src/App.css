@@ -1,0 +1,173 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+body{
+  background-color: #f6fafc;
+  overflow-x: hidden;
+}
+.page1{
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  }
+nav{
+
+  
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0 auto;
+  height: 12vh;
+ padding: 10px;
+  width: 100vw;
+  backdrop-filter: blur(20px);
+  background: transparent;
+}
+.logo{
+  height: 100%;
+  width: 10%;
+  border-radius: 10px;
+}
+.navbtn{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 10%;
+  gap: 10px;
+}
+.signup{
+  font-family: "bebas neue";
+  height: 6vh;
+  width: 100%;
+  border: 2px solid grey;
+  border-radius: 5px;
+ background: transparent;
+}
+.signup:hover{
+  background-color: rgb(39, 38, 38);
+  color: #f6fafc;
+  scale: 1.2;
+
+}
+.login:hover{
+  background: transparent;
+  color:black ;
+  scale: 1.2;
+}
+.login{
+  font-family: "bebas neue";
+  height: 6vh;
+  width: 100%;
+  color: #f6fafc;
+  border: 2px solid grey;
+  border-radius: 5px;
+ background-color: rgb(39, 38, 38);
+}
+
+h1{
+  font-family: "bebas neue";
+  text-align: center;
+  font-size: 3rem;
+}
+.main{
+  width: 100%;
+  height: 80%;
+  margin: 0 auto;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img{
+  width: 50%;
+  height: 80vh;
+}
+.btn1,.btn2{
+
+  font-family: "bebas neue";
+  font-size: larger;
+  height: 10vh;
+  width: 25vw;
+  border: 2px solid grey;
+  border-radius: 5px;
+ background: transparent;
+}
+.btn1:hover{
+  
+  font-family: "bebas neue";
+  scale: 1.2;
+ background-color: #66d466;
+
+}
+.btn2:hover{
+  
+  font-family: "bebas neue";
+  scale: 1.2;
+ background-color: #eb2525;
+
+}
+
+.btn{
+  display:  flex;
+  flex-direction: column;
+  gap: 10vh;
+
+
+}
+.search{
+  width: 60%;
+  height: 100%;
+  border-radius: 20px;
+  
+  
+  backdrop-filter: blur(10px);
+  border: 3px solid grey;
+}
+input{
+  width: 100%;
+  height: 100%;
+  outline: none;
+  border: none;
+  background: none;
+  color: black;
+  padding: 10px;
+  font-family: "halventicaneue";
+  font: bolder;
+  font-size: 1rem;
+
+}
+::placeholder{
+  color: black;
+  font-family: "halventicaneue";
+  font-size: 1rem;
+}
+.tagline{
+  font-family: "bebas neue";
+  text-align: center;
+  font-size: 4rem;
+  position: absolute;
+  bottom: 40px;
+  width: 100%;
+  margin: 0 auto;
+}
+.page2{
+  width: 100vw;
+  min-height: 100vh;
+ 
+}
+.cards{
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw;
+ justify-content: flex-start;
+  height: 100vh;
+
+}
+.card{
+  height:80%;
+  width: 30%;
+ border-radius: 10px;
+  border: 2px solid grey;
+  margin: 15px;
+}
